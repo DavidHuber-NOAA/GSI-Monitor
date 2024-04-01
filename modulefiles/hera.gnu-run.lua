@@ -7,6 +7,7 @@ local stack_gnu_ver=os.getenv("stack_gnu_ver") or "9.2.0"
 local stack_openmpi_ver=os.getenv("stack_openmpi_ver") or "4.1.5"
 local prod_util_ver=os.getenv("prod_util_ver") or "2.1.1"
 local grads_ver=os.getenv("grads_ver") or "2.2.1"
+local perl_ver=os.getenv("perl_ver") or "5.38.0"
 
 load(pathJoin("stack-gcc", stack_gnu_ver))
 load(pathJoin("stack-openmpi", stack_openmpi_ver))
